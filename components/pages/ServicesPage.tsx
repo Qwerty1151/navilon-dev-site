@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import { Code, Gamepad2, Brain, Settings, Cloud, Database, ArrowRight, Check, Star } from '../ui/icons';
 import { Button } from '../ui/button';

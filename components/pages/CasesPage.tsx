@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import { ExternalLink, Github, ArrowRight, Filter, Star } from '../ui/icons';
 import { Button } from '../ui/button';
