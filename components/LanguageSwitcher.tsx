@@ -1,29 +1,12 @@
 "use client";
+
 import React from "react";
 
-type Props = {
-  current?: string;
-  onChange?: (lang: string) => void;
-  className?: string;
-};
-
-const langs = ["en","ru","de","fr","es","pl","zh"];
-
-export function LanguageSwitcher({ current = "en", onChange, className }: Props) {
+export function LanguageSwitcher() {
   return (
-    <select
-      aria-label="Language"
-      value={current}
-      onChange={(e) => onChange?.(e.target.value)}
-      className={className ?? "lang-switch"}
-    >
-      {langs.map((l) => (
-        <option key={l} value={l}>
-          {l.toUpperCase()}
-        </option>
-      ))}
-    </select>
+    <div>
+      <button>EN</button>
+      <button>RU</button>
+    </div>
   );
 }
-
-export default LanguageSwitcher;
