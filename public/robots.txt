@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://navilon-dev.vercel.app/sitemap.xml
