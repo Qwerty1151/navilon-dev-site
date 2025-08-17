@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Code, Gamepad2, Brain, Users } from './ui/icons';
 import { Button } from './ui/button';
