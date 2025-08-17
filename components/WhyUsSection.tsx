@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useState, useRef } from 'react';
 import { Award, Globe, Users, TrendingUp, Star, Shield } from './ui/icons';
 import { useTranslation } from '../hooks/useTranslation';
