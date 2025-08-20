@@ -1,3 +1,1 @@
-export function cn(...parts: Array<string | undefined | null | false>) {
-  return parts.filter(Boolean).join(" ");
-}
+export function cn(...p:(string|undefined|null|false)[]){return p.filter(Boolean).join(" ");}

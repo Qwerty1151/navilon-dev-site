@@ -1,8 +1,1 @@
-:root {
-  --brand-bg: #0b1220;
-  --brand-fg: #ffffff;
-  --brand-accent: #2fb6ff;
-}
-html, body { margin: 0; padding: 0; font-family: system-ui, Inter, Arial, sans-serif; background: var(--brand-bg); color: var(--brand-fg); }
-main { max-width: 1200px; margin: 0 auto; padding: 24px; }
-a { color: var(--brand-accent); text-decoration: none; }
+html,body{margin:0;padding:0;font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif}

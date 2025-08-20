@@ -1,8 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: process.env.SITE_URL || 'https://navilon-dev.vercel.app',
+  siteUrl: process.env.SITE_URL || 'https://navilon-dev-site.vercel.app',
   generateRobotsTxt: true,
-  sitemapSize: 7000,
   changefreq: 'weekly',
-  priority: 0.7
+  priority: 0.7,
 };
